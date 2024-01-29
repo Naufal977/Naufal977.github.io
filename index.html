@@ -1,0 +1,178 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naufal Fachrudin Ilyasa</title>
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto+Slab:wght@500&family=Teko:wght@300&display=swap');
+   .bar{
+    font-family: 'Honk', system-ui;
+    font-size: xx-large;
+   }
+   body h1 {
+    font-family: 'Teko', sans-serif;
+    }
+
+    .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+  </style>
+
+
+</head>
+<body>
+    <div>
+        <img src="logo.jpeg" alt="" width="100%" height=350px">
+    </div>
+            <div class="w3-bar w3-blue w3-card-4 bar ">
+                <button class="w3-bar-item w3-button" onclick="klik('Boy')">HOME</button>
+                <button class="w3-bar-item w3-button" onclick="klik('Fang')">SINOPSIS</button>
+                <button class="w3-bar-item w3-button" onclick="klik('Gopal')">KARAKTER</button>
+                <div class="w3-dropdown-hover">
+                    <button class="w3-bar-item w3-button" >WALLPAPER</button>
+                    
+                    <div class="w3-dropdown-content w3-bar-block w3-border ">
+                      <button class="w3-bar-item w3-button" onclick="klik('Adudu')">BOBOIBOY</button>
+                      <button class="w3-bar-item w3-button" onclick="klik('Tayo')">FANG</button>
+                    </div>
+                  </div>
+            </div>
+<!--Boboiboy-->
+        <div id="Boy" class=" bola  " style="display: none;">
+           
+                <img src="poster.jpg" alt="Boy" width="100%" height="70%">
+            
+        </div>
+<!--Fang-->
+        <div id="Fang" class="w3-container bola w3-animate-bottom w3-pale-red w3-text-black" style="display: none; text-transform: uppercase;">
+            <center>
+                <h1>SINOPSIS</h1>
+                <img src="sinopsis.png" alt="Fang" width="30%">
+                <p>BoBoiBoy adalah sebuah seri animasi Malaysia yang diproduksi oleh Animonsta Studios. Seri animasi ini menceritakan tentang seorang anak yang memiliki kekuatan luar biasa untuk melawan makhluk asing yang ingin menyerang Bumi. Bersama keempat temannya; Yaya, Ying, Gopal dan Fang, BoBoiBoy berusaha menghalangi Adu Du, alien berkepala kotak dan berwarna hijau, bersama dengan Probe dan Computer yang ingin menaklukan bumi untuk mendapatkan biji coklat. </p>
+            </center>
+        </div>
+<!--Gopal-->
+        <div id="Gopal" class="w3-container bola w3-animate-top w3-pale-red" style="display: none;">
+            <div class="w3-content w3-display-container">
+
+                <div class="w3-display-container  mySlides">
+                  <img src="boy.webp" style="width:30% ">
+                  <div class="w3-display-middle w3-large w3-container w3-padding-10 ">
+                    <p>BoBoiBoy adalah protagonis dan karakter utama dalam seri ini. Diceritakan, dia berasal dari Kuala Lumpur dan mendapat kekuatan dari Ochobot. Dia memiliki 7 kekuatan elemen, yaitu Petir, Angin, Tanah, Api, Air, Daun dan Cahaya. Masing-masing elemen telahpun naik ke tingkat kedua yaitu Halilintar, Topan, Gempa, Blaze dan Es.</p>
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="fang.webp" style="width:30%">
+                  <div class="w3-display-middle w3-large w3-container w3-margin-left ">
+                    <p>Dia pertama kali muncul dalam episode 13 di musim pertama, terlihat saat BoBoiBoy masuk ke kereta dan dia keluar dari kereta Sama seperti Ying dia berketurunan Tionghoa. Diceritakan, dia memiliki kekuatan dari Ochobot saat Adu Du mempergunakan Fang yang tidak tahu apa-apa untuk menangkap Ochobot. </p>
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="gopal.webp" style="width:30%">
+                  <div class="w3-display-middle w3-large w3-container w3-margin-left ">
+                    <p >Gopal berbadan besar dan merupakan teman baik BoBoiBoy. Gopal adalah anak yang penakut dan sering membongkar rahasia orang-orang di sekitarnya secara tidak sadar, termasuk rahasia teman-temannya. </p>
+                  </div>
+                </div>
+                
+                <div class="w3-display-container mySlides">
+                  <img src="adu.webp" style="width:30%">
+                  <div class="w3-display-middle w3-large w3-container w3-margin-left ">
+                    <p>
+                        Adu Du adalah antagonis utama dalam serial ini. Berkepala kotak dan berwarna hijau. Tujuannya adalah menghancurkan BoBoiBoy dan kawan-kawannya serta mendapatkan coklat. Berasal dari golongan terbawah Suku Sakat Ado Doi sektor 42 planet A Ta Ta Tiga. Kapal luar Angkasa milk Adu du pernah dijual untuk membeli senjata dari Bago Go.
+                    </p>
+                  </div>
+                </div>
+                
+                
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                
+                </div>
+        </div>
+<!--wp boboiboy-->
+        <div id="Adudu" class="w3-container bola w3-animate-zoom" style="display: none;">
+          <div class="w3-content" style="max-width:1200px">
+            <img class="mySlides" src="wppboy1.jpg" style="width:100%;display:none">
+            <img class="mySlides" src="wppboy2.jpeg" style="width:100%">
+            <img class="mySlides" src="wppboy3.jpg" style="width:90%;display:none">
+          
+            <div class="w3-row-padding w3-section">
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppboy1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppboy2.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppboy3.jpg" style="width:90%;cursor:pointer" onclick="currentDiv(3)">
+              </div>
+            </div>
+        </div>
+        </div>
+<!--wp fang-->
+        <div id="Tayo" class="w3-container bola w3-animate-zoom" style="display: none;">
+          <div class="w3-content" style="max-width:1200px">
+            <img class="mySlides" src="wppfang1.jpeg" style="width:100%;display:none">
+            <img class="mySlides" src="wppfang2.jpeg" style="width:100%">
+            <img class="mySlides" src="wppfang3.jpeg" style="width:90%;display:none">
+          
+            <div class="w3-row-padding w3-section">
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppfang1.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppfang2.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="wppfang3.jpeg" style="width:90%;cursor:pointer" onclick="currentDiv(3)">
+              </div>
+            </div>
+        </div>
+
+
+        </div>
+
+</body>
+
+<script>
+function klik(merk) {
+    var i;
+    var x = document.getElementsByClassName("bola");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(merk).style.display = "block";
+  }
+
+<!--slider-->
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
+
+  </script>
+  
+</html>
